@@ -1,12 +1,13 @@
-﻿namespace Northwind.Entities.Concrete
-{
-    public class Category
-    {
-        public int CategoryID { get; set; }
-        public string CategoryName { get; set; }
-        public string Description  { get; set; }
-        public string Pictures { get; set; }
+﻿using Northwind.Core.Entities.Abstract;
 
-        public List<Product> Products { get; set; }
+namespace Northwind.Entities.Concrete
+{
+    public class Category : IEntity
+    {
+        public int Id { get; set; }
+        public string? Description { get; set; }
+        public string? Name { get; set; }
+
+        //public List<Product> Products { get; set; } = new List<Product>();
     }
 }

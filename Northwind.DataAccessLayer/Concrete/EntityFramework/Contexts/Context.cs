@@ -1,14 +1,20 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Northwind.DataAccessLayer.Concrete.EntityFramework.Mappings;
 using Northwind.Entities.Concrete;
 
 namespace Northwind.DataAccessLayer.Concrete.EntityFramework.Contexts
 {
-    public class Context: DbContext
+    public class Context : DbContext
     {
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public Context(DbContextOptions<Context> options) : base(options)
         {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB; Initial Catalog=Northwind; Integrated Security=true ");
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new CategoryMap());
+            modelBuilder.ApplyConfiguration(new ProductMap());
+            modelBuilder.ApplyConfiguration(new SupplierMap());
         }
 
         public DbSet<Product> Products { get; set; }

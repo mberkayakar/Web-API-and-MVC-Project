@@ -1,18 +1,19 @@
-﻿namespace Northwind.Entities.Concrete
+﻿using Northwind.Core.Entities.Abstract;
+
+namespace Northwind.Entities.Concrete
 {
-    public class Product
+    public class Product : IEntity
     {
-        public int ProductID { get; set; }
-        public int SupplierID { get; set; }
-        public int CategoryID { get; set; }
-        public string ProductName { get; set; }
+        public int Id { get; set; }
+        public int SupplierId { get; set; }
+        public int CategoryId { get; set; }
         public string QuantityPerUnit { get; set; }
         public decimal UnitPrice { get; set; }
-        public int UnitsInStock { get; set; }
-        public int UnitsOnOrder { get; set; }
-        public int ReorderLevel { get; set; }
-        public bool Discountinued { get; set; }
-
+        public Int16 UnitsInStock { get; set; }
+        public Int16 UnitsOnOrder { get; set; }
+        public Int16 ReorderLevel { get; set; }
+        public bool Discontinued { get; set; }
+        public string Name { get; set; }
 
         public Supplier Supplier { get; set; }
         public Category Category { get; set; }

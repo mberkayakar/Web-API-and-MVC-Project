@@ -5,8 +5,10 @@ using Northwind.Entities.Concrete;
 
 namespace Northwind.DataAccessLayer.Concrete.EntityFramework.Repositories
 {
-    public class SupplierRepository : GenericRepository<Supplier,Context>, ISupplierRepository
+    public class EfProductRepository : GenericRepository<Product>, IProductRepository
     {
-
+        public EfProductRepository(Context context) : base(context)
+        {
+        }
     }
 }

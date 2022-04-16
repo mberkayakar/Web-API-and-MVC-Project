@@ -648,6 +648,9 @@
       "Northwind.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Northwind.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Northwind.Entities.dll": {}
         },
@@ -1890,7 +1893,6 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.4",
-      "Northwind.Core >= 1.0.0",
       "Northwind.Entities >= 1.0.0"
     ]
   },
@@ -1921,9 +1923,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\NORDWİND_N_LAYER_APP\\Northwind.Core\\Northwind.Core.csproj": {
-              "projectPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\NORDWİND_N_LAYER_APP\\Northwind.Core\\Northwind.Core.csproj"
-            },
             "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\NORDWİND_N_LAYER_APP\\Northwind.Entities\\Northwind.Entities.csproj": {
               "projectPath": "C:\\Users\\Muhammed Berkay AKAR\\Desktop\\NORDWİND_N_LAYER_APP\\Northwind.Entities\\Northwind.Entities.csproj"
             }

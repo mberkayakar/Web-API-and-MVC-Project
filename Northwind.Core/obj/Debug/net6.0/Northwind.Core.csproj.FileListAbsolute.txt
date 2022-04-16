@@ -1,0 +1,12 @@
+C:\Users\Muhammed Berkay AKAR\Desktop\NORDWİND_N_LAYER_APP\Northwind.Core\bin\Debug\net6.0\Northwind.Core.deps.json
+C:\Users\Muhammed Berkay AKAR\Desktop\NORDWİND_N_LAYER_APP\Northwind.Core\bin\Debug\net6.0\Northwind.Core.dll
+C:\Users\Muhammed Berkay AKAR\Desktop\NORDWİND_N_LAYER_APP\Northwind.Core\bin\Debug\net6.0\Northwind.Core.pdb
+C:\Users\Muhammed Berkay AKAR\Desktop\NORDWİND_N_LAYER_APP\Northwind.Core\obj\Debug\net6.0\Northwind.Core.csproj.AssemblyReference.cache
+C:\Users\Muhammed Berkay AKAR\Desktop\NORDWİND_N_LAYER_APP\Northwind.Core\obj\Debug\net6.0\Northwind.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammed Berkay AKAR\Desktop\NORDWİND_N_LAYER_APP\Northwind.Core\obj\Debug\net6.0\Northwind.Core.AssemblyInfoInputs.cache
+C:\Users\Muhammed Berkay AKAR\Desktop\NORDWİND_N_LAYER_APP\Northwind.Core\obj\Debug\net6.0\Northwind.Core.AssemblyInfo.cs
+C:\Users\Muhammed Berkay AKAR\Desktop\NORDWİND_N_LAYER_APP\Northwind.Core\obj\Debug\net6.0\Northwind.Core.csproj.CoreCompileInputs.cache
+C:\Users\Muhammed Berkay AKAR\Desktop\NORDWİND_N_LAYER_APP\Northwind.Core\obj\Debug\net6.0\Northwind.Core.dll
+C:\Users\Muhammed Berkay AKAR\Desktop\NORDWİND_N_LAYER_APP\Northwind.Core\obj\Debug\net6.0\refint\Northwind.Core.dll
+C:\Users\Muhammed Berkay AKAR\Desktop\NORDWİND_N_LAYER_APP\Northwind.Core\obj\Debug\net6.0\Northwind.Core.pdb
+C:\Users\Muhammed Berkay AKAR\Desktop\NORDWİND_N_LAYER_APP\Northwind.Core\obj\Debug\net6.0\ref\Northwind.Core.dll
