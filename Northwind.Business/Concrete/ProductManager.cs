@@ -23,11 +23,16 @@ namespace Northwind.Business.Concrete
             //}
         }
 
-        public List<Product> GetAllWithCategoryAndSupplier(int? page, int size, string search, bool orderstatus)
+        public List<Product> GetAllWithCategoryAndSupplier(int? page, int size, string? search, bool orderstatus)
         {
             //var products = _memoryCache.Get<IQueryable<Product>>(CacheKey);
 
             var products = _productRepository.GetList();
+
+            if (search != null)
+            {
+                products = products.Where(x => x.Name.Contains(search));
+            }
 
             if (!page.HasValue)
             {
@@ -39,19 +44,12 @@ namespace Northwind.Business.Concrete
                 products = _productRepository.GetList().Skip(pageIndex).Take(size);
             }
 
-            if (search!="")
-            {
-                products = products.Where(x => x.Name.Contains(search));
-            }
-
             if (orderstatus == true)
             {
-                products = products.OrderByDescending(x=> x.Id);
+                products = products.OrderByDescending(p => p.UnitPrice);
             }
 
             return products.Include(p => p.Supplier).Include(p => p.Category).ToList();
         }
-
-       
     }
 }

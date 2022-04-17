@@ -1,0 +1,36 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Northwind.WebUI
+build_property.RootNamespace = Northwind.WebUI
+build_property.ProjectDir = C:\Users\Muhammed Berkay AKAR\Desktop\NORDWİND_N_LAYER_APP\Northwind.WebUI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Muhammed Berkay AKAR\Desktop\NORDWİND_N_LAYER_APP\Northwind.WebUI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Muhammed Berkay AKAR/Desktop/NORDWİND_N_LAYER_APP/Northwind.WebUI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammed Berkay AKAR/Desktop/NORDWİND_N_LAYER_APP/Northwind.WebUI/Views/Home/ProductListPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0TGlzdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammed Berkay AKAR/Desktop/NORDWİND_N_LAYER_APP/Northwind.WebUI/Views/Shared/Partial/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxcX0Zvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammed Berkay AKAR/Desktop/NORDWİND_N_LAYER_APP/Northwind.WebUI/Views/Shared/Partial/_Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxcX05hdmJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Muhammed Berkay AKAR/Desktop/NORDWİND_N_LAYER_APP/Northwind.WebUI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

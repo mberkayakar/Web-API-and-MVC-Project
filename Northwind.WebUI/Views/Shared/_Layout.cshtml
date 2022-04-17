@@ -1,0 +1,16 @@
+﻿ <!doctype HTML>
+ <html>
+     <head>
+         <title> SETRE WEB APP </title>
+         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+     </head>
+     <body>
+         <div class="container">
+         @Html.Partial("Partial/_Navbar")
+         @RenderBody()
+         @Html.Partial("Partial/_Footer")
+
+         </div>
+         <script src="~/lib/jquery/dist/jquery.min.js"> </script>
+     </body>
+ </html>

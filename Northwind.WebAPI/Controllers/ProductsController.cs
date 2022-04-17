@@ -16,9 +16,9 @@ namespace Northwind.WebAPI.Controllers
 
         [HttpGet]
 
-        public IActionResult GetAll(int? page = 1, int size = 12 , string search="", bool orderstatus=false )
+        public IActionResult GetAll(string? search, int? page = 1, int size = 12, bool orderstatus = false)
         {
-            var products = _productService.GetAllWithCategoryAndSupplier(page, size, search, orderstatus );
+            var products = _productService.GetAllWithCategoryAndSupplier(page, size, search, orderstatus);
             if (products != null)
             {
                 return Ok(products);

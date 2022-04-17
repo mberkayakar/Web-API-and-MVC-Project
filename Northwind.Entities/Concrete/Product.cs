@@ -17,7 +17,5 @@ namespace Northwind.Entities.Concrete
 
         public Supplier Supplier { get; set; }
         public Category Category { get; set; }
-
-
     }
 }
